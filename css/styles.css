@@ -1,0 +1,362 @@
+*{
+    font-family: "Century Gothic";
+}
+.icone-menu{
+    background-color: #111;
+    margin-top: 15px;
+    margin-left: 0px;
+    height: 30px;
+    width: 30px;
+}
+.cinza-header{
+    background-color: #111;
+}
+.style-menu-dropdown{
+    background-color: #041727;
+    border: 1px solid #10a6eb;
+}
+.a-style-menu-dropdown{
+    margin-bottom: 5px;
+    color: white;
+    margin-bottom: 1px solid #10a6eb;
+}
+.p-aside{
+    margin-top: 10px;
+    font-size: 10pt;
+}
+.myHeader{
+    background-color: #111;
+    color: white;
+    height: 10vh;
+    align-items: center;
+    justify-items: center;
+    display: flex;
+}
+.float-left{
+    float: left;
+}
+.alinhar-centro{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+.myHeader-Welcome{
+    background: #111;
+    color: white;
+    height: 10vh;
+    align-items: center;
+    justify-content: center;
+    border: 0;
+    text-align: center;
+}
+.CabecalhoListaPeso{
+    background-color: #041727;
+    border: 1px solid #10a6eb;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+}
+.ConteudoListaPeso{
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    font-size: 30px;
+}
+h2{
+    font-size: 25px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+}
+.p-welcome{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 20px;
+    margin-top: 5vh;
+    padding: 15px;
+}
+.p-calcIMC{
+    text-align: left;
+    font-size: 20px;
+    margin-top: 5vh;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.a-welcome{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    height: 60px;
+    background-color: 0;
+    border: 1px solid #10a6eb;
+    border-radius: 5px;
+    border-end-end-radius: 5px;
+    margin: 10px;
+    text-align: center;
+    align-items: center;
+    vertical-align: 300px;
+}
+.myMain{
+    background: #222;
+    color: white;
+    height: 70vh;
+    align-items: center;
+    justify-content: center;
+}
+.myMain-Welcome{
+    background: #222;
+    color: white;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+.myForm{
+    align-items: center;
+    justify-content: center;
+}
+.myForm-CalcIMC{
+    text-align: left;
+    font-size: 20px;
+    margin-top: 5vh;
+    padding: 15px;
+}
+.myBox{
+    background-color: #222;
+    border: 1px solid #10a6eb;
+    box-sizing: border-box;
+    border-radius: 10px;
+    
+}
+.imgPen-lista-peso{
+    float: left;
+    height: 2em;
+    width: 2em;
+}
+.imgTrash-lista-peso{
+    float: right;
+    height: 2em;
+    width: 2em;
+}
+.tbimc{
+    justify-content: center;
+    align-self: center;
+    align-content: center;
+    color: white;
+    font-style: normal;
+    border: 1px solid #10a6eb;
+    border-radius: 10px;
+}
+th{
+    background-color: #10a6eb;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+}
+td{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+}
+.peso-ideal{
+    background-color: #041727;
+    border: 1px solid #10a6eb;
+    box-sizing: border-box;
+}
+.icone-voltar{
+    text-decoration: none;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+}
+.myBottonsPq1{
+    margin-top: 35px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+.myBottonsPq2{
+    background-color: #222;
+    border: 1px solid #10a6eb;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin-top: 35px;
+    align-items: center;
+    justify-content: center;
+}
+.myBottons-Welcome{
+    background-color: #222;
+    border: 1px solid #10a6eb;
+    box-sizing: border-box;
+    border-radius: 20px;
+    margin-top: 35px;
+    height: 60px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.myBottonsMasc{
+    background-color: #222;
+    border: 1px solid #10a6eb;
+    box-sizing: border-box;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    margin-top:20px;
+    align-items: center;
+    justify-content: center;
+}
+.myBottonsFem{
+    background-color: #222;
+    border: 1px solid #10a6eb;
+    box-sizing: border-box;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.myBottons-CalcIMC-tb{
+    float: left;
+    border-radius: 10px;
+    height: 10vh;
+    width: 35vw;
+}
+.myBottons-CalcIMC-est{
+    float: right;
+    border-radius: 10px;
+    height: 10vh;
+    width: 35vw;
+}
+.myBottons-dia{
+    float: left;
+    justify-content: center;
+    background-color: #041727;
+    border: 1px solid #10a6eb;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    width: 19vw;
+    font-size: 10pt;
+}
+.myBottons-mes{
+    float: left;
+    justify-content: center;
+    background-color: #041727;
+    border: 1px solid #10a6eb;
+    border-radius: 0;
+    width: 18vw;
+    font-size: 10pt;
+}
+.myBottons-semana{
+    float: left;
+    justify-content: center;
+    background-color: #041727;
+    border: 1px solid #10a6eb;
+    border-radius: 0;
+    width: 18vw;
+    font-size: 10pt;
+}
+.myBottons-ano{
+    float: left;
+    justify-content: center;
+    background-color: #041727;
+    border: 1px solid #10a6eb;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 18vw;
+    font-size: 10pt;
+}
+.myBottons-peso{
+    float: left;
+    background-color: #041727;
+    border: 1px solid #10a6eb;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    width: 37vw;
+    margin-top: 35px;
+    font-size: 10pt;
+}
+.myBottons-imc{
+    float: left;
+    background-color: #041727;
+    border: 1px solid #10a6eb;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 37vw;
+    margin-top: 35px;
+    font-size: 10pt;
+}
+.img-graficos{
+    width: 74vw;
+    height: 50vh;
+}
+.myFooter{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    background: #222;
+    color: white;
+    height: 20vh;
+    align-items: center;
+    justify-content: center;
+}
+.logo{
+    width: 160px;
+}
+.link{
+    padding: 10px;
+    font-size: 12pt;
+    color: white;
+    border-bottom: 1px solid #10a6eb;
+}
+.link:hover{
+    background-color: #111;
+}
+.barra-lateral{
+    background-color: #222;
+    height: 100vh;
+    border-right: 1px solid #10a6eb;
+}
+nav{
+    width: 100%;
+    top: 30px;
+}
+nav a{
+    text-decoration: none;
+}
+.margem-div-email{
+    margin-top: 30px;
+}
+@media screen and (min-width: 1920px){
+
+}
+@media screen and (max-width: 980px){
+    aside{
+        display: none;
+    }
+}
+@media screen and (max-width: 520px){
+    aside{
+        display: none;
+    }
+}
+@media screen and (max-width: 360px){
+    aside{
+        display: none;
+    }
+}

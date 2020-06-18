@@ -1,0 +1,113 @@
+<!DOCTYPE html> <!-- tag essencial, define o tipo de documento, no caso html5 -->
+
+<html lang="pt-br">
+	<head>
+		<title>Health Track - Login</title>
+		<meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="keywords" content="fiap, exemplo, html">
+        <meta name="description" content="EXEMPLO - BOOTSTRAP">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" 
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" 
+    crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+
+	</head>	
+	<body>
+    <header>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-2 dropdown cinza-header">
+                    <img src="image/icone-menu.svg" class="icone-menu" data-toggle="dropdown" alt="Menu">
+                    <div class="dropdown-menu style-menu-dropdown">
+                      <a class="dropdown-item a-style-menu-dropdown" href="cadastro.html">Cadastro</a>
+                      <a class="dropdown-item a-style-menu-dropdown" href="lista-peso.html">Informar Peso</a>
+                      <a class="dropdown-item a-style-menu-dropdown" href="calc-imc.html">IMC</a>
+                      <a class="dropdown-item a-style-menu-dropdown" href="tabela-imc.html">Tabela IMC</a>
+                      <a class="dropdown-item a-style-menu-dropdown" href="estatisticas.html">Estatísticas</a>
+                      <a class="dropdown-item a-style-menu-dropdown" href="#">Sair</a>
+                    </div>
+                  </div>
+                <div class="col-10 myHeader">
+                    <h1>IMC</h1>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        
+        <div class="container-fluid myMain-Welcome">
+            <div class="row">
+                <aside class="col-md-2 barra-lateral">
+                    <p class="p-aside">Seja bem-vindo ao:</p>
+                    <img src="image/logo.png" class="logo" alt="Health Track">
+                    <div>
+                        <p class="p-aside">O que deseja fazer?</p>
+                    </div>
+                    <nav>
+                        <a href="cadastro.html"><div class="link">Cadastro</div></a>
+                        <a href="lista-peso.html"><div class="link">Informar Peso</div></a>
+                        <a href="calc-imc.html"><div class="link">IMC</div></a>
+                        <a href="tabela-imc.html"><div class="link">Tabela IMC</div></a>
+                        <a href="estatisticas.html"><div class="link">Estatísticas</div></a>
+                        <a href="#"><div class="link">Sair</div></a>
+                    </nav>
+                </aside>
+                <section class="col-md-10">
+                    <div class="container-fluid myMain">
+                        <div class="row align-items-start">
+                            <div class="col align-self-center p-calcIMC">
+                                <div>
+                                    Vamos calcular seu IMC com base nas recentes informações que você preencheu? Vamos lá! 
+                                </div>
+                                <div class="myForm-CalcIMC">
+                                    <form id="calcular-imc">
+                                        <div class="form-group">
+                                            <label for="imc-calculado">IMC calculado:</label>
+                                            <input type="number" class="form-control myBox" readonly>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="class-imc-calculado">Classificação IMC:</label>
+                                            <input type="text" class="form-control myBox" readonly>
+                                        </div>  
+                                    </form>
+                                </div>
+                                <div>
+                                    <div class="col align-self-start">
+                                        <a href="tabela-imc.html">
+                                        <botton type="button" class="form-control btn btn-primary myBottons-CalcIMC-tb" id="botao-tbimc">
+                                            <img src="image/icone-tabela.svg" alt=""><br>Tabela IMC</botton></a>
+                                    </div>
+                                    <div class="col align-self-end">
+                                        <a href="estatisticas.html">
+                                        <botton type="button" class="form-control btn btn-primary myBottons-CalcIMC-est" id="botao-estatisticas">
+                                            <img src="image/icone-grafic.svg" alt=""><br>Estatísticas</botton></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <a href="#"><botton type="botton" 
+                                class="btn btn-primary myBottons-Welcome alinhar-centro" id="add-peso">Calcular IMC
+                            </botton></a>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </main>
+
+
+
+	
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+	</body>
+</html>
